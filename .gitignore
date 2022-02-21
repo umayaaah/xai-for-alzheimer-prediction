@@ -1,0 +1,10 @@
+# Environments
+.env
+.venv
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+**/.DS_Store
