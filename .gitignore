@@ -11,3 +11,6 @@ env/
 __pycache__/
 
 /archive
+/datasets
+/training/AD_NC/data
+/training/MCI_NC/data
