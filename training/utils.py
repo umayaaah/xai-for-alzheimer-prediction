@@ -54,3 +54,7 @@ class RunModel():
     def save_model(self, path, X_train, X_test, y_train, y_test):
         pickle.dump([self.model, X_train, X_test, y_train, y_test], open(path, 'wb'))
         print("Saved.")
+
+    def save_obj(self, path, X_train, X_test, y_train, y_test):
+        pickle.dump([self, X_train, X_test, y_train, y_test], open(path, 'wb'))
+        print("Saved.")
