@@ -14,20 +14,20 @@ The project uses jupyter notebooks to meet the objectives, in order to run certa
 pip install -r requirements.txt
 ```
 
-[Identifying the problem and Data Sources]()
-Identify the types of information contained in the ADNI dataset for the purpose of getting to know what data is available and  the data to get a good grasp of the data and think about how to handle the data in different ways.
+[Identifying the problem and Data Sources](https://github.com/umayaaah/xai-for-alzheimer-prediction/blob/main/preprocessing/ADNI_preprocessing.ipynb)
+Identify the types of information contained in the ADNI dataset in order to understand the features available in each of the Neurocognitive, MRI and demographic datasets. The null values have been removed or imputed and clean data sets for single modalities and combined modalities saved in respective classification folders.
 
-[Exploratory Data Analysis]()
- Data exploration and visualization techniques using python libraries (Pandas, matplotlib, seaborn). Familiarity with the data is important which will provide useful knowledge for data pre-processing and training the models.
+[Exploratory Data Analysis](https://github.com/umayaaah/xai-for-alzheimer-prediction/tree/main/preprocessing)
+ Data exploration and visualization techniques using python libraries (Pandas, matplotlib, seaborn). Familiarity with the data is important to provide useful knowledge for training the models. This was complete on each cleansed dataset which had AD and MCI labels.
 
-[AD Classification]()
+[AD Classification](https://github.com/umayaaah/xai-for-alzheimer-prediction/tree/main/training/AD_NC)
 This folder has the following 4 stages as notebooks to build a model that has high accuracy in performance for classifying AD with normal controls patients. The best model achieved an accuracy of 96.12%.
 1. Training model
 2. Evaluating model
 3. LIME framework
 4. SHAP framework
 
-[MCI Classification]()
+[MCI Classification](https://github.com/umayaaah/xai-for-alzheimer-prediction/tree/main/training/MCI_NC)
 This folder has the following 4 stages as notebooks to build a model that has high accuracy in performance for classifying MCI with normal controls patients. The best model achieved an accuracy of 86.77%.
 1. Training model
 2. Evaluating model
